@@ -15,6 +15,7 @@ const Home = () => {
             <h2 className="home-heading">Welcome to Your Dream Home Destination!</h2>
 
             <h2 className="home-name">
+              <span className="home-rentify">Rentify</span>
               Rentify
               <span style={{ color: "#2AA7FF" }}>
                 {" "}

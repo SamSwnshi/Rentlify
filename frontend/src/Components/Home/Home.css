@@ -21,10 +21,13 @@ background-size: cover
     color: white;
 }
 .home-name{width: 100%;
-    font-size: 35px;
+    font-size: 36px;
   
 }
 .home-para{
-    font-size: 17px;
+    font-size: 20px;
     color: #F1F1F1;
+}
+.home-rentify{
+  font-size: 20px;
 }
