@@ -1,6 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
 .App {
   text-align: center;
 }
+/* body{
+  background: #D0BFFF;
+} */
 
 .App-logo {
   height: 40vmin;

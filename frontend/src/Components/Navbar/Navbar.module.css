@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008793;
+    padding: 10px 20px;
+  height: 80px;
+  /* background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  }
+ .link{
+    text-decoration: none;
+  }
+  .navbar_brand img {
+    width: 140px;
+  }
+  
+  .navbar_links {
+    display: flex;
+  }
+  
+  .navbar_link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .navbar-link:last-child {
+    margin-right: 0;
+  }
+  
+  .profileIcon {
+    font-size: 1.8rem;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit;        /* Inherit color from parent */
+  }
+  
+  /* Styles for visited links */
+  a:visited {
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  /* Styles for focused and active links */
+  a:focus,
+  a:active {
+    text-decoration: none; /* Remove underline */
+    color: inherit;        /* Inherit color from parent */
+  }
+  
+  /* Optional: To maintain a consistent style for hovered links as well */
+  a:hover {
+    text-decoration: none; /* Remove underline */
+    color: inherit;        /* Inherit color from parent */
+  }
